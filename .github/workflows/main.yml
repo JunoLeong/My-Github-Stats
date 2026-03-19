@@ -58,7 +58,7 @@ jobs:
     - name: Push to public repo
       run: |
         git clone https://x-access-token:${{ secrets.OUTPUT_REPO_TOKEN }}@github.com/JunoLeong/github-stats-output.git public-output
-        mkdir -p public-output/generated || true
+        mkdir -p public-output/generated
         cp generated/*.svg public-output/generated/
         cd public-output
         git config user.name "github-stats-bot"
