@@ -1,5 +1,2 @@
 data export-ignore
 generated export-ignore
-
-# Modify detect Jupyter notebook as Python
-*.ipynb linguist-language=Python
